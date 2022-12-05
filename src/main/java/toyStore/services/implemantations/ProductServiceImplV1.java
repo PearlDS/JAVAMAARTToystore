@@ -1,11 +1,13 @@
 package toyStore.services.implemantations;
 
+import org.springframework.stereotype.Service;
 import toyStore.data.Product;
 import toyStore.repositories.ProductRepository;
 import toyStore.services.interfaces.ProductService;
 
 import java.util.List;
 
+@Service
 public class ProductServiceImplV1 implements ProductService {
 
 
