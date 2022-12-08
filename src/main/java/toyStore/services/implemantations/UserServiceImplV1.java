@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import toyStore.data.User;
 import toyStore.repositories.Userrepository;
-import toyStore.services.interfaces.UserSerice;
+import toyStore.services.interfaces.UserService;
 
 @Service
-public class UserServiceImplV1 implements UserSerice {
+public class UserServiceImplV1 implements UserService {
 
 
     private Userrepository userrepository;

@@ -2,7 +2,7 @@ package toyStore.services.interfaces;
 
 import toyStore.data.User;
 
-public interface UserSerice {
+public interface UserService {
 
     User getUserByUserNameAndPassword(String userNme, String pasword);
 }

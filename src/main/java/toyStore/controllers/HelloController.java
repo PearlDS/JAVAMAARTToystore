@@ -16,6 +16,7 @@ public class HelloController {
     public String hello2(Model model){
         String greeting= "Hello Mars";
         model.addAttribute("message", greeting);
+        model.addAttribute("message2", greeting+"!!!!!!");
         return "dynamicTest";
     }
 
